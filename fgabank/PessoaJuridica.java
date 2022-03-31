@@ -7,6 +7,7 @@ public class PessoaJurídica extends PessoaHeranca {
 	private String responsavel;
 	
 	
+	
 	public PessoaJurídica() {//gcfs
 		
 	}
@@ -17,6 +18,7 @@ public class PessoaJurídica extends PessoaHeranca {
 		this.segmento = segmento;
 		this.responsavel = responsavel;
 	}
+	
 	public String getCnpj() {//ggas
 		return cnpj;
 	}
