@@ -1,7 +1,7 @@
 package fgabank;
 
 public class Conta {
-	// atributos
+	// atributos/campos(fields)
 	private int agencia;
 	private int numeroConta;
 	protected double saldo;
@@ -60,11 +60,11 @@ public class Conta {
 		this.agencia = agencia;
 	}
 
-	public int getnumeroConta() {
+	public int getNumeroConta() {
 		return numeroConta;
 	}
 
-	public void setnumeroConta(int numeroConta) {
+	public void setNumeroConta(int numeroConta) {
 		this.numeroConta = numeroConta;
 	}
 

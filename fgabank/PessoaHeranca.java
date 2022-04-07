@@ -11,7 +11,6 @@ public class PessoaHeranca {
 	}
 
 	public PessoaHeranca(String nome, String telefone, String email) {
-		super();
 		this.nome = nome;
 		this.telefone = telefone;
 		this.email = email;

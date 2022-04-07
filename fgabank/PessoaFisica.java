@@ -1,6 +1,6 @@
 package fgabank;
 
-public class PessoaFísica extends PessoaHeranca {
+public class PessoaFisica extends PessoaHeranca {
 	
 	private String cpf;
 	private String rg;
@@ -8,11 +8,11 @@ public class PessoaFísica extends PessoaHeranca {
 	
 	
 	
-	public PessoaFísica() {//gcfs
+	public PessoaFisica() {//gcfs
 		super();
 		
 	}
-	public PessoaFísica(String cpf, String rg, String profissao) {//gcuf
+	public PessoaFisica(String cpf, String rg, String profissao) {//gcuf
 		super();
 		this.cpf = cpf;
 		this.rg = rg;
